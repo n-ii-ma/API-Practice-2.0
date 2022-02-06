@@ -37,7 +37,7 @@ Project is created with:
 Allows users to test the functionality of a RESTfull API.
 
 ## Screenshot
-![image](https://user-images.githubusercontent.com/88039431/152688766-7e918aa7-717f-4a69-be6b-1222e4fda5ec.png)
+![image](https://user-images.githubusercontent.com/88039431/152691085-f3ab6d33-f208-4c75-8a3e-7d92f3acf7a8.png)
 
 ## Setup
 Run ```npm run dev``` to start the server and simply open the link you see in the console or manually navigate to http://localhost:5000/api/users on your machine.
