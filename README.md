@@ -14,7 +14,7 @@ A RESTfull API built with Express for CRUD operations on an array of users.
 + [Contact](#contact)
 
 ## General Info
-With this API you can Create, Read, Update, and Delete an array of users.
+With this API you can Create, Read, Update, and Delete an array of 10 users from [JSONPlaceholder's "Users" resources](https://jsonplaceholder.typicode.com/users).
 
 ## Address
 http://localhost:5000/api/users
