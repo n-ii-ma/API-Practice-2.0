@@ -1,7 +1,7 @@
-# API-Practice-2.0
+# Users API
 
 ## Description
-Personal API as practice.
+A REST-full API for CRUD of Users
 
 ## Setup
 Run ```npm run dev``` to start the server and navigate to http://localhost:5000/api/users on your machine or simply open the link you see in the console and add ```/api/users``` to the end of the URL.
