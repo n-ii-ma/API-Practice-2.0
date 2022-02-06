@@ -1,26 +1,66 @@
 [
   {
+    "id": "7872e893-ad4e-47e7-bf8c-431694d81794",
+    "name": "Leanne Graham",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "phone": "1770736803",
+    "website": "hildegard.org"
+  },
+  {
+    "id": "a0bf7049-f9d0-4dac-be26-88c38aa654c7",
+    "name": "Ervin Howell",
+    "username": "Antonette",
+    "email": "Shanna@melissa.tv",
+    "phone": "0106926593",
+    "website": "anastasia.net"
+  },
+  {
+    "id": "3ee0663e-2c8a-4de5-aac5-ae4f372f2125",
+    "name": "Clementine Bauch",
+    "username": "Samantha",
+    "email": "Nathan@yesenia.net",
+    "phone": "1463123444",
+    "website": "ramiro.info"
+  },
+  {
+    "id": "c08e9eb2-5a1f-40be-b5d2-ae2db9512d44",
+    "name": "Patricia Lebsack",
+    "username": "Karianne",
+    "email": "Julianne.OConner@kory.org",
+    "phone": "4931709623",
+    "website": "kale.biz"
+  },
+  {
+    "id": "d5b905e5-f2ea-48a2-9fd4-4e1306467f7f",
+    "name": "Chelsey Dietrich",
+    "username": "Kamren",
+    "email": "Lucio_Hettinger@annie.ca",
+    "phone": "2549541289",
+    "website": "demarco.info"
+  },
+  {
     "id": "ab5b698e-9f4b-431d-ba52-3b0eb8e3e770",
     "name": "Mrs. Dennis Schulist",
-    "username": "Leopoldo_Corkery",
+    "username": "LeopoldoCorkery",
     "email": "Karley_Dach@jasper.info",
-    "phone": "1-477-935-8478 x6430",
+    "phone": "1477935847",
     "website": "ola.org"
   },
   {
     "id": "bfb26e4c-e910-4804-a3d5-7d9a54276e38",
     "name": "Kurtis Weissnat",
-    "username": "Elwyn.Skiles",
+    "username": "ElwynSkiles",
     "email": "Telly.Hoeger@billy.biz",
-    "phone": "210.067.6132",
+    "phone": "2100676132",
     "website": "elvis.io"
   },
   {
     "id": "99ea62e4-f8aa-481c-b9c2-26fd3f584691",
     "name": "Nicholas Runolfsdottir V",
-    "username": "Maxime_Nienow",
+    "username": "MaximeNienow",
     "email": "Sherwood@rosamond.me",
-    "phone": "586.493.6943 x140",
+    "phone": "5864936943",
     "website": "jacynthe.com"
   },
   {
@@ -28,15 +68,15 @@
     "name": "Glenna Reichert",
     "username": "Delphine",
     "email": "Chaim_McDermott@dana.io",
-    "phone": "(775)976-6794 x41206",
+    "phone": "7759766794",
     "website": "conrad.com"
   },
   {
     "id": "e77e640b-baf6-471e-a1d6-d18697cf7318",
     "name": "Clementina DuBuque",
-    "username": "Moriah.Stanton",
+    "username": "MoriahStanton",
     "email": "Rey.Padberg@karina.biz",
-    "phone": "024-648-3804",
+    "phone": "0246483804",
     "website": "ambrose.net"
   }
 ]

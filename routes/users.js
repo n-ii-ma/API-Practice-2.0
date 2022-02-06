@@ -109,7 +109,7 @@ module.exports = usersRouter;
  *              type: string
  *              description: The website of the user
  *        example:
- *           id: bd5b688c-9e4b-452g-ba96-3b1eb9c3e689
+ *           id: 03377fa6-aa0d-4183-b351-54070b8a8401
  *           name: Bruce Wayne
  *           username: Batman
  *           email: batman@gmail.com

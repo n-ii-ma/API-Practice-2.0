@@ -49,5 +49,5 @@ app.use("/api/users", require("./routes/users"));
 
 // Server
 app.listen(PORT, () =>
-  console.log(`Server Listening on http://localhost:${PORT}/`)
+  console.log(`API Started on http://localhost:${PORT}/api/users`)
 );
