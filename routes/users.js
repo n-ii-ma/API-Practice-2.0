@@ -39,7 +39,7 @@ usersRouter.param("id", (req, res, next, id) => {
   }
 });
 
-// Modular and Mountable Route Handlers
+// Modular & Mountable Route Handlers
 
 // GET all users
 usersRouter.get("/", getUsers);
@@ -56,7 +56,9 @@ usersRouter.put("/:id", updateUser);
 // DELETE a specific user
 usersRouter.delete("/:id", deleteUser);
 
-/* // Chainable Route Handlers
+/*
+// Chainable Route Handlers
+
 usersRouter
   .route("/")
   // GET all users
@@ -71,6 +73,178 @@ usersRouter
   // UPDATE a specific user
   .put(updateUser)
   // DELETE a specific user
-  .delete(deleteUser); */
+  .delete(deleteUser); 
+*/
 
 module.exports = usersRouter;
+
+// Swagger reusable schemas & parameters
+/**
+ * @swagger
+ * components:
+ *   schemas:
+ *     user:
+ *        type: object
+ *        required:
+ *          - name
+ *          - username
+ *          - email
+ *        properties:
+ *           id:
+ *              type: string
+ *              description: The auto-generated ID of the user
+ *           name:
+ *              type: string
+ *              description: The name of the user
+ *           username:
+ *              type: string
+ *              description: The username of the user
+ *           email:
+ *              type: string
+ *              description: The email address of the user
+ *           phone:
+ *              type: string
+ *              description: The phone number of the user
+ *           website:
+ *              type: string
+ *              description: The website of the user
+ *        example:
+ *           id: bd5b688c-9e4b-452g-ba96-3b1eb9c3e689
+ *           name: Bruce Wayne
+ *           username: Batman
+ *           email: batman@gmail.com
+ *           phone: "0123456789"
+ *           website: www.batman.com
+ *   parameters:
+ *     userParam:
+ *          in: path
+ *          name: id
+ *          schema:
+ *             type: string
+ *          required: true
+ *          description: The User ID
+ */
+
+// Swagger tags
+/**
+ * @swagger
+ * tags:
+ *    name: Users
+ *    description: The Users API
+ */
+
+// GET all users
+/**
+ * @swagger
+ * /api/users:
+ *       get:
+ *        summary: GET All Users
+ *        tags: [Users]
+ *        responses:
+ *          200:
+ *            description: Successfully Fetched All Users!
+ *            content:
+ *               application/json:
+ *                  schema:
+ *                     type: array
+ *                     items:
+ *                        $ref: "#/components/schemas/user"
+ *          500:
+ *            description: Server Error!
+ */
+
+// GET one specific user
+/**
+ * @swagger
+ * /api/users/{id}:
+ *       get:
+ *        summary: GET a Specific User by ID
+ *        tags: [Users]
+ *        parameters:
+ *             - $ref: "#/components/parameters/userParam"
+ *        responses:
+ *          200:
+ *            description: Successfully Fetched User!
+ *            content:
+ *               application/json:
+ *                  schema:
+ *                    $ref: "#/components/schemas/user"
+ *          404:
+ *            description: User Not Found!
+ *          500:
+ *            description: Server Error!
+ */
+
+// POST a user
+/**
+ * @swagger
+ * /api/users:
+ *    post:
+ *      summary: Create a New User
+ *      tags: [Users]
+ *      requestBody:
+ *        required: true
+ *        content:
+ *         application/json:
+ *           schema:
+ *              $ref: "#/components/schemas/user"
+ *      responses:
+ *          201:
+ *            description: Successfully Created User!
+ *            content:
+ *               application/json:
+ *                  schema:
+ *                    $ref: "#/components/schemas/user"
+ *          400:
+ *            description: Bad Request!
+ *          500:
+ *            description: Server Error!
+ */
+
+// UPDATE a specific user
+/**
+ * @swagger
+ * /api/users/{id}:
+ *      put:
+ *        summary: UPDATE a Specific User by ID
+ *        tags: [Users]
+ *        parameters:
+ *            - $ref: "#/components/parameters/userParam"
+ *        requestBody:
+ *          required: true
+ *          content:
+ *            application/json:
+ *              schema:
+ *                $ref: "#/components/schemas/user"
+ *        responses:
+ *          200:
+ *            description: Successfully Updated User!
+ *            content:
+ *               application/json:
+ *                  schema:
+ *                    $ref: "#/components/schemas/user"
+ *          400:
+ *            description: Bad Request!
+ *          404:
+ *            description: User Not Found!
+ *          500:
+ *            description: Server Error!
+ */
+
+// DELETE a specific user
+/**
+ * @swagger
+ * /api/users/{id}:
+ *    delete:
+ *        summary: GET a Specific User by ID
+ *        tags: [Users]
+ *        parameters:
+ *            - $ref: "#/components/parameters/userParam"
+ *        responses:
+ *          204:
+ *            description: Successfully Deleted User!
+ *          404:
+ *            description: User Not Found!
+ *          500:
+ *            description: Server Error!
+ */
