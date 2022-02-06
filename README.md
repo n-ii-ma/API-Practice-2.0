@@ -1,7 +1,56 @@
-# API-Practice-2.0
+# Users API
 
-## Description
-Personal API as practice.
+A RESTfull API built with Express for CRUD operations on an array of users.
+
+## Table of contents
++ [General Info](#general-info)
++ [Address](#address)
++ [Technologies](#technologies)
++ [Features](#features)
++ [Screenshot](#screenshot)
++ [Setup](#setup)
++ [Docs](#docs)
++ [Usage](#usage)
++ [Contact](#contact)
+
+## General Info
+With this API you can Create, Read, Update, and Delete an array of users.
+
+## Address
+http://localhost:5000/api/users
+
+## Technologies
+Project is created with:
++ Express v4.17.2
++ Nodemon v2.0.15
++ JOI v17.6.0
++ Morgan v1.10.0
++ CORS v2.8.5
++ Swagger JSDoc v6.1.0
++ Swagger UI Express v4.3.0
++ UUID v8.3.2
++ Node.js v16.13.2
++ npm v8.1.2
++ VSCode v1.64.0
+
+## Features
+Allows users to test the functionality of a RESTfull API.
+
+## Screenshot
+![image](https://user-images.githubusercontent.com/88039431/152688766-7e918aa7-717f-4a69-be6b-1222e4fda5ec.png)
 
 ## Setup
-You need [Postman](https://www.postman.com/) to view the functionality of the API.
+Run ```npm run dev``` to start the server and simply open the link you see in the console or manually navigate to http://localhost:5000/api/users on your machine.
+
+You can use [Postman](https://www.postman.com/) to view the functionality of the API.
+
+## Docs
+Navigate to http://localhost:5000/api-docs to view the API Docs which is built with [Swagger](https://swagger.io/).
+
+## Usage
+Useful for practicing the functionality of a RESTfull API.
+
+## Contact
+Created by [n-ii-ma](https://github.com/n-ii-ma)
+
+Feel free to contact me!
