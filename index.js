@@ -32,6 +32,7 @@ const options = {
     servers: [
       {
         url: `http://localhost:${PORT}`,
+        url: 'https://express-user-api.herokuapp.com/'
       },
     ],
   },
