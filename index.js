@@ -5,8 +5,8 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // CORS Policy
-const cors = require("cors");
-app.use(cors());
+// const cors = require("cors");
+// app.use(cors());
 
 // Body Parser
 app.use(express.json());
