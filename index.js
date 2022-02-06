@@ -38,7 +38,11 @@ const options = {
 };
 
 const specs = swaggerJsdoc(options);
-app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(specs));
+app.use(
+  "/",
+  swaggerUi.serve,
+  swaggerUi.setup(specs, { customSiteTitle: "User API" })
+);
 
 // Routers
 app.use("/api/users", require("./routes/users"));
