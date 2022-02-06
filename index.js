@@ -24,9 +24,10 @@ const options = {
   definition: {
     openapi: "3.0.0",
     info: {
-      title: "User API",
-      version: "2.0",
-      description: "Simple Express User API",
+      title: "Users API",
+      version: "1.0",
+      description:
+        "A RESTfull API built with Express for CRUD operations on an array of users",
     },
     servers: [
       {

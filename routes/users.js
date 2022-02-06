@@ -130,7 +130,6 @@ module.exports = usersRouter;
  * @swagger
  * tags:
  *    name: Users
- *    description: The Users API
  */
 
 // GET all users
