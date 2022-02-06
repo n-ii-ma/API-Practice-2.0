@@ -40,7 +40,7 @@ Allows users to test the functionality of a RESTfull API.
 ![image](https://user-images.githubusercontent.com/88039431/152688766-7e918aa7-717f-4a69-be6b-1222e4fda5ec.png)
 
 ## Setup
-Run ```npm run dev``` to start the server and navigate to http://localhost:5000/api/users on your machine or simply open the link you see in the console and add ```/api/users``` to the end of the URL.
+Run ```npm run dev``` to start the server and simply open the link you see in the console or manually navigate to http://localhost:5000/api/users on your machine.
 
 You can use [Postman](https://www.postman.com/) to view the functionality of the API.
 
