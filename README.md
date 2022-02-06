@@ -4,20 +4,20 @@ A RESTfull API built with Express for CRUD operations on an array of users.
 
 ## Table of contents
 + [General Info](#general-info)
-+ [Address](#address)
++ [Docs Address](#docs-address)
 + [Technologies](#technologies)
 + [Features](#features)
 + [Screenshot](#screenshot)
 + [Setup](#setup)
-+ [Docs](#docs)
 + [Usage](#usage)
 + [Contact](#contact)
 
 ## General Info
 With this API you can Create, Read, Update, and Delete an array of 10 users from [JSONPlaceholder's "Users" resources](https://jsonplaceholder.typicode.com/users).
 
-## Address
-http://localhost:5000/api/users
+## Docs Address
+https://express-user-api.herokuapp.com/
+Built with [Swagger](https://swagger.io/)
 
 ## Technologies
 Project is created with:
@@ -43,9 +43,6 @@ Allows users to test the functionality of a RESTfull API.
 Run ```npm run dev``` to start the server and simply open the link you see in the console or manually navigate to http://localhost:5000/api/users on your machine.
 
 You can use [Postman](https://www.postman.com/) to view the functionality of the API.
-
-## Docs
-Navigate to http://localhost:5000/api-docs to view the API Docs which is built with [Swagger](https://swagger.io/).
 
 ## Usage
 Useful for practicing the functionality of a RESTfull API.
