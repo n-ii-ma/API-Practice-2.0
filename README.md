@@ -4,7 +4,6 @@ A RESTfull API built with Express for CRUD operations on an array of users.
 
 ## Table of contents
 + [General Info](#general-info)
-+ [Docs Address](#docs-address)
 + [Technologies](#technologies)
 + [Features](#features)
 + [Screenshot](#screenshot)
@@ -14,11 +13,6 @@ A RESTfull API built with Express for CRUD operations on an array of users.
 
 ## General Info
 With this API you can Create, Read, Update, and Delete an array of 10 users from [JSONPlaceholder's "Users" resources](https://jsonplaceholder.typicode.com/users).
-
-## Docs Address
-https://express-user-api.herokuapp.com/api-docs/
-
-Built with [Swagger](https://swagger.io/)
 
 ## Technologies
 Project is created with:
