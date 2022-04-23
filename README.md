@@ -1,6 +1,6 @@
 # Users API
 
-A RESTfull API built with Express for CRUD operations on an array of users.
+A RESTful API built with Express for CRUD operations on an array of users.
 
 ## Table of contents
 + [General Info](#general-info)
