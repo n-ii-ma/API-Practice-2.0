@@ -27,7 +27,7 @@ const options = {
       title: "Users API",
       version: "1.0",
       description:
-        "A RESTfull API built with Express for CRUD operations on an array of users",
+        "A RESTful API built with Express for CRUD operations on an array of users",
     },
     servers: [
       {
